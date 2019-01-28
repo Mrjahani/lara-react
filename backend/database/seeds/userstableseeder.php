@@ -26,7 +26,7 @@ class userstableseeder extends Seeder
             'lastname' => 'jahani',
             'username' => 'salivan',
             'email' => 'jahani@gmail.com',
-            'password' => bcrypt('1233456'),
+            'password' => bcrypt('123456'),
             'type' => 'admin',
         ]);
         $this->command->info('admin user created');
